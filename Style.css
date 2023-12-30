@@ -1,0 +1,55 @@
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 7vmin;
+}
+.photo1{
+    height: 44vmax;
+   
+    border-radius: 1vmin;
+}
+.img1{
+    width: 40vmax;
+    height: 20vmax; 
+    border-radius: 2vmin;
+}
+.img1para{
+    margin-right: 30vmin;
+}
+.abc{
+    width: 35vmax;
+    height: 20vmax;
+    border-radius: 1vmax;
+   
+}
+.img1div{
+    margin-left: 7vmax;
+}
+.img2heading{
+    margin-left: 7vmax;
+}
+.img2para{
+    margin-left: 7vmax;
+}
+.text{
+    color: whitesmoke;
+    font-size: 2vmax;
+}
+.button1{
+    margin-left: 7vmax;
+}
+
+
+/* contact section */
+.contacttext{
+    margin-left: 31.7vmax;
+}
+.blue{
+    border-radius: 2vmax;
+}
+
+/* Gallery */
+.galleryimg{
+    width: 25vmax;
+    height: 15vmax;
+    border-radius: 2vmin;
+}

@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./Style.css">
+
+
+    <title>Himachal Pradesh</title>
+</head>
+
+<body class="text-white bg-dark">
+    <!-- navbar section -->
+    <section class="sectionnavbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./Images/hplogo.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+                    Himachal Padesh
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Images</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Places
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Manali</a></li>
+                                <li><a class="dropdown-item" href="#">Shimla</a></li>
+                                <li><a class="dropdown-item" href="#">Kasol</a></li>
+                                <li><a class="dropdown-item" href="#">Dhramshala</a></li>
+                                <li><a class="dropdown-item" href="#">See All</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success bg-success text-white " type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+<!-- carousel section -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="./Images/manali1.jpg" class="d-block w-100 photo1" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text">Manali</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <img src="./Images/shimla.jpg" class="d-block w-100 photo1 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text">Shimla</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./Images/triund.jpg" class="d-block w-100 photo1" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text">Triund</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/kasol.jpg" class="d-block w-100 photo1" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text">Kasol</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/dhramshala.jpg" class="d-block w-100 photo1" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text">Dhramshala</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+<!-- abiut section -->
+    <section>
+        <div class="container-fluid ">
+            <h1 class="display-3 text-center pt-4 pb-1">District</h1>
+            <hr class="w-25 mx-auto">
+
+            <div class="row mt-5 ">
+
+                <div class="col-lg-6 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner img1div">
+                            <div class="carousel-item active">
+                                <img src="./Images/shimla.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/shimla1.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/shimla.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5">
+                    <h1 class="img2heading mt-5">Shimla</h1>
+                    <p class="img2para mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+
+                    <button type="button" class="btn btn-primary mt-4 button1 ">Wana Know more.</button>
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="row mt-5">
+
+                <div class="col-lg-6 img1div">
+                    <h1 class="img1heading mt-5">Manali</h1>
+                    <p class="img1para mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+                    <button type="button" class="btn btn-primary mt-4 ">Wana Know more.</button>
+
+
+                </div>
+
+                <div class="col-lg-5 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/manali.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/manali1.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/manali.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="row mt-5 ">
+
+                <div class="col-lg-6 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner img1div">
+                            <div class="carousel-item active">
+                                <img src="./Images/dhramshala.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/triund.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/dhramshala.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5">
+                    <h1 class="img2heading mt-5">Kangra</h1>
+                    <p class="img2para mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+                    <button type="button" class="btn btn-primary mt-4 button1 ">Wana Know more.</button>
+
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="row mt-5 ">
+
+                <div class="col-lg-6 img1div">
+                    <h1 class="img1heading mt-5">Bilaspur</h1>
+                    <p class="img1para mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+                    <button type="button" class="btn btn-primary mt-4 ">Wana Know more.</button>
+
+
+                </div>
+
+                <div class="col-lg-5 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/bilaspur2.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/bilaspur.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/bilaspur1.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="row mt-5 ">
+
+                <div class="col-lg-6 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner img1div">
+                            <div class="carousel-item active">
+                                <img src="./Images/triund.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/triund1.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/triund2.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5">
+                    <h1 class="img2heading mt-5 ">Hamirpur</h1>
+                    <p class="img2para mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+                    <button type="button" class="btn btn-primary mt-4 button1">Wana Know more.</button>
+
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="row mt-5 ">
+
+                <div class="col-lg-6 img1div">
+                    <h1 class="img1heading mt-5 ">Mandi</h1>
+                    <p class="img1para mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+                    <button type="button" class="btn btn-primary mt-4 ">Wana Know more.</button>
+
+
+                </div>
+
+                <div class="col-lg-5 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/barot1.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/barout.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/barout2.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row mt-5 ">
+
+                <div class="col-lg-6 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner img1div">
+                            <div class="carousel-item active">
+                                <img src="./Images/triund.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/triund1.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/triund2.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5">
+                    <h1 class="img2heading mt-5 ">Chamba</h1>
+                    <p class="img2para mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+                    <button type="button" class="btn btn-primary mt-4 button1">Wana Know more.</button>
+
+
+                </div>
+
+
+
+            </div>
+
+            <div class="row mt-5 ">
+
+                <div class="col-lg-6 img1div">
+                    <h1 class="img1heading mt-5 ">Una</h1>
+                    <p class="img1para mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+                    <button type="button" class="btn btn-primary mt-4 ">Wana Know more.</button>
+
+
+                </div>
+
+                <div class="col-lg-5 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/barot1.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/barout.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/barout2.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row mt-5 ">
+
+                <div class="col-lg-6 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner img1div">
+                            <div class="carousel-item active">
+                                <img src="./Images/triund.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/triund1.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/triund2.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5">
+                    <h1 class="img2heading mt-5 ">Sirmaur</h1>
+                    <p class="img2para mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+                    <button type="button" class="btn btn-primary mt-4 button1">Wana Know more.</button>
+
+
+                </div>
+
+
+
+            </div>
+
+            < <div class="row mt-5 ">
+
+                <div class="col-lg-6 img1div">
+                    <h1 class="img1heading mt-5 ">Lahul and Spiti</h1>
+                    <p class="img1para mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+                    <button type="button" class="btn btn-primary mt-4 ">Wana Know more.</button>
+
+
+                </div>
+
+                <div class="col-lg-5 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/barot1.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/barout.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/barout2.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row mt-5 ">
+
+                <div class="col-lg-6 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner img1div">
+                            <div class="carousel-item active">
+                                <img src="./Images/triund.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/triund1.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/triund2.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5">
+                    <h1 class="img2heading mt-5 ">Kinnaur</h1>
+                    <p class="img2para mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+                    <button type="button" class="btn btn-primary mt-4 button1">Wana Know more.</button>
+
+
+                </div>
+
+
+
+            </div>
+
+            <div class="row mt-5 ">
+
+                <div class="col-lg-6 img1div">
+                    <h1 class="img1heading mt-5 ">Solan</h1>
+                    <p class="img1para mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iste
+                        blanditiis unde ad nulla recusandae ipsam deleniti animi similique! Fuga nisi hic beatae sunt
+                        dolores aut nam, nesciunt non corporis!</p>
+                    <button type="button" class="btn btn-primary mt-4 ">Wana Know more.</button>
+
+
+                </div>
+
+                <div class="col-lg-5 mt-4">
+                    <!-- <img class="img1 mx-5" src="./Images/2185156.jpg" alt="Error"> -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/barot1.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/barout.jpg" alt="Error" class="d-block abc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/barout2.jpg" alt="Error" class="d-block abc">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+    <!-- Gallery -->
+    <section>
+        <div class="container">
+            <h1 class="text-center display-2 pt-5">Gallery</h1>
+            <hr class="w-25 mx-auto">
+            <div class="row mt-5 pt-2">
+                <div class="col-sm-4 ">
+                    <img class="galleryimg" src="./Images/manali.jpg" alt="error">
+                </div>
+                <div class="col-sm-4">
+                    <img class="galleryimg" src="./Images/manali1.jpg" alt="error">
+                </div>
+                <div class="col-sm-4">
+                    <img class="galleryimg" src="./Images/shimla.jpg" alt="error">
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-sm-4 ">
+                    <img class="galleryimg" src="./Images/shimla1.jpg" alt="error">
+                </div>
+                <div class="col-sm-4">
+                    <img class="galleryimg" src="./Images/triund.jpg" alt="error">
+                </div>
+                <div class="col-sm-4">
+                    <img class="galleryimg" src="./Images/triund1.jpg" alt="error">
+                </div>
+            </div>
+
+            <div class="row mt-5 pb-5">
+                <div class="col-sm-4 ">
+                    <img class="galleryimg" src="./Images/triund2.jpg" alt="error">
+                </div>
+                <div class="col-sm-4">
+                    <img class="galleryimg" src="./Images/dhramshala.jpg" alt="error">
+                </div>
+                <div class="col-sm-4">
+                    <img class="galleryimg" src="./Images/barot1.jpg" alt="error">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact info -->
+
+    <section>
+        <div class="container-fluid mt-5">
+            <div class="text-center bg-primary pt-4 blue">
+                <h1 class="display-2">Want to join</h1>
+                <h4 class="mt-4">Be a part of Himachal Pradesh. </h4>
+                <button type="button" class="btn btn-warning mt-3 mb-4">Join Now</button>
+            </div>
+
+            <div class="mt-5">
+                <h1 class="text-center">Contact us</h1>
+                <hr class="w-25 mx-auto">
+
+                <div class="container mt-5">
+                    <form >
+                        <div>
+                            <label for="name" class="contacttext">Name:</label>
+                            <input type="name" class="form-control w-25 mx-auto" placeholder="Enter name">
+                        </div>
+                        <div class="mb-3 mt-3 ">
+                            <label for="email" class="contacttext">Email:</label>
+                            <input type="email" class="form-control w-25 mx-auto" placeholder="Enter email" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="pwd" class="contacttext">Password:</label>
+                            <input type="password" class="form-control w-25 mx-auto" placeholder="Enter password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="contacttext">Message:</label>
+                            <textarea class="form-control w-25 mx-auto" rows="2"></textarea>
+                        </div>
+                        <div class="form-check mb-3">
+                            <label class="form-check-label contacttext ">
+                                <input class="form-check-input " type="checkbox" name="remember"> Remember me
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary contacttext">Submit</button>
+                    </form>
+                </div>
+                <div class="mt-4">
+                    <marquee width="100%" direction="left" height="auto">
+                        This site is made by Akash Chandel.
+                    </marquee>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
