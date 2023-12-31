@@ -1,4 +1,4 @@
-<h1 align="center">BootStrapl</h1>
+<h1 align="center">BootStrap</h1>
 <h3 align="center">Create a Tourism site using HTML,CSS,BootStrap.</h3>
 
 **Output
